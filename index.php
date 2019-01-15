@@ -16,6 +16,7 @@
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" type="text/css" href="assets/css/index.css" >
   <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
   <title>Welcome Sigbin</title>
 </head>
 <body>
@@ -25,6 +26,17 @@
 			<div id="nowPlayingBarLeft">
 				<div class="content">
 					<span class="albumLink"><img class="albumArtwork" src=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAKlBMVEX///8AAABpaWmJiYlsbGx9fX319fWYmJhlZWVDQ0ONjY2EhISBgYH7+/s5oZO0AAABPklEQVR4nO3P2RGCUAAEwSeo4JV/uobAB0UtS/VEMD2Wdbp2Y7pdvHFPHxwdYX+E/RH2R9gfYX+E/RH2R9gfYX+E/RH2R9gfYX+E/W0JX+/55H12Cr/j7P12Ch9pwGZPQsI0YDNCQsJ8hISE+QgJCfMREhLmIyQkzEdISJiPkJAwHyEhYT5CQsJ8hISE+QgJCfMREhLmIyQkzEdISJiPkJAwHyEhYT5CQsJ8hISE+QgJCfMREhLmIyQkzEdISJiPkJAwHyEhYT5CQsJ8hISE+QgJCfMREhLmIyQkzEdISJiPkJAwHyEhYT5CQsJ8hISE+QgJCfMREhLmIyQkzEdISJiPkPD6wm8asNlvp/D1nk/eZ6ewP8L+CPsj7I+wP8L+CPsj7I+wP8L+CPsj7I+wP8L+CPsbU/rg6MayTtfuD6N2bW3PI3z1AAAAAElFTkSuQmCC></span>
+				
+				
+					<div class="trackInfo">
+					
+						<span class="trackName">
+							<span>Original Sigbin</span></span>
+							
+						<span class="artistName">
+							<span>Junior Kilat</span></span>
+					
+					</div>
 				</div>
 			</div>
 			
