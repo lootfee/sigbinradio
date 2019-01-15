@@ -74,7 +74,17 @@
 			</div>
 			
 			<div id="nowPlayingBarRight">
-			
+				<div class="volumeBar">
+					<button class="controlButton volume" title="Volume">
+						<img src="assets/icons/volume.png" alt="Volume">
+					</button>
+					
+					<div class="progressBar">
+						<div class="progressBarBg">
+							<div class="progress"></div>
+						</div>
+					</div>
+				</div>
 			</div>
 		
 		</div>
