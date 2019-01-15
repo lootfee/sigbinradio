@@ -23,7 +23,9 @@
 	<div id="nowPlayingBarContainer">
 		<div id="nowPlayingBar">
 			<div id="nowPlayingBarLeft">
-			
+				<div class="content">
+					<span class="albumLink"><img class="albumArtwork" src=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAKlBMVEX///8AAABpaWmJiYlsbGx9fX319fWYmJhlZWVDQ0ONjY2EhISBgYH7+/s5oZO0AAABPklEQVR4nO3P2RGCUAAEwSeo4JV/uobAB0UtS/VEMD2Wdbp2Y7pdvHFPHxwdYX+E/RH2R9gfYX+E/RH2R9gfYX+E/RH2R9gfYX+E/W0JX+/55H12Cr/j7P12Ch9pwGZPQsI0YDNCQsJ8hISE+QgJCfMREhLmIyQkzEdISJiPkJAwHyEhYT5CQsJ8hISE+QgJCfMREhLmIyQkzEdISJiPkJAwHyEhYT5CQsJ8hISE+QgJCfMREhLmIyQkzEdISJiPkJAwHyEhYT5CQsJ8hISE+QgJCfMREhLmIyQkzEdISJiPkJAwHyEhYT5CQsJ8hISE+QgJCfMREhLmIyQkzEdISJiPkPD6wm8asNlvp/D1nk/eZ6ewP8L+CPsj7I+wP8L+CPsj7I+wP8L+CPsj7I+wP8L+CPsbU/rg6MayTtfuD6N2bW3PI3z1AAAAAElFTkSuQmCC></span>
+				</div>
 			</div>
 			
 			<div id="nowPlayingBarCenter">

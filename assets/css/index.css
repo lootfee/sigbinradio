@@ -30,6 +30,14 @@ h1 {
 	
 }
 
+#nowPlayingBarLeft .albumArtwork {
+	height: 57px;
+    max-width: 57px;
+    margin-right: 10px;
+    float: left;
+	background-size: cover;
+}
+
 #nowPlayingBarCenter {
 	width: 40%;
 	max-width: 700px;
@@ -40,6 +48,7 @@ h1 {
 
 #nowPlayingBar .content {
 	width: 100%;
+	height: 57px;
 }
 
 .playerControls, .buttons {
@@ -84,6 +93,7 @@ h1 {
     height: 12px;
     display: inline-flex;
     cursor: pointer;
+	
 }
 
 .progressBarBg {
@@ -94,8 +104,13 @@ h1 {
 }
 
 .progress {
-	background-color: #a0a0a0;
-    height: 5px;
+	background-color: #07c1e8;
+    height: 7px;
     width: 0;
     border-radius: 3px;
+    margin-top: -1px;
+}
+
+.playbackBar .progressBar {
+	margin-top: 4px:
 }
