@@ -1,41 +1,29 @@
-<?php
-	include("includes/config.php");
+<?php include("includes/header.php"); ?>
+					
+	<div class="gridViewContainer">
+		
+		<?php 
+			$albumQuery = mysqli_query($con, "SELECT * FROM Albums ORDER BY RAND() LIMIT 12");
 
-	if(isset($_SESSION['userLoggedIn'])) {
-		$userLoggedIn = $_SESSION['userLoggedIn'];
-	}
-	else {
-		header("Location: register.php");
-	}
-?>
+			while($row = mysqli_fetch_array($albumQuery)) {
+				
 
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" type="text/css" href="assets/css/index.css" >
-  <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
-  <title>Welcome Sigbin</title>
-</head>
-<body>
-	<h1>Sigbin Radio</h1>
+				echo "<div class='gridViewItems'>
+					<a href='album.php?id=" . $row['id'] . "'>
+					<img src='" . $row['artworkPath'] . "'>
 
-	<div id="mainContainer">
+					<div class='gridViewInfo'>" 
 
-		<div id="topContainer">
+						. $row['title'] .
 
-			<?php include('includes/navBarContainer.php');?>
+					"</div>
 
-		</div>
+				</a>
 
-		<?php include('includes/nowPlayingBarContainer.php');?>
+				</div>";
+			}
+		 ?>
 
 	</div>
 
-
-
-</body>
-
-</html>
+<?php include("includes/footer.php"); ?>		
